@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+    
+    <body style='font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'>
+        <div class="container p-12" style="padding: 48px;">
+            <table class="w-8/12 mx-auto bg-indigo-200" style="margin-left: auto; margin-right: auto; width: 66.666667%; background-color: #c7d2fe;">
+                <tbody>
+                    <tr>
+                        <td class="text-center text-sm text-gray-700 bg-blue-200 p-8" style="background-color: #bfdbfe; padding: 32px; text-align: center; font-size: 14px; color: #374151;">
+                            <p class="my-8 text-2xl" style="margin-top: 32px; margin-bottom: 32px; font-size: 24px;">Hello, {{ name  }}</p>
+                            If you no longer wish to receive this Newsletter, you can
+                            <a href="{{ host_name }}{% url 'profile-settings' %}" target="_blank" class="text-red-700 bg-slate-200 px-4 mt-4 py-2 inline-block hover:bg-slate-600 hover:text-red-100 rounded-md border border-1 border-cyan-500 uppercase" style="margin-top: 16px; display: inline-block; border-radius: 0.375rem; border-width: 1px; border-color: #06b6d4; background-color: #e2e8f0; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; text-transform: uppercase; color: #b91c1c;">
+                            unsubscribe here
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

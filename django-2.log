@@ -1,0 +1,9 @@
+WARNING 2024-08-26 02:05:30,475 mi_django views.py (line 10) home_view This is a warning message
+ERROR 2024-08-26 02:05:30,476 mi_django views.py (line 11) home_view This is a error message
+CRITICAL 2024-08-26 02:05:30,476 mi_django views.py (line 12) home_view This is a critical message
+WARNING 2024-08-26 02:13:25,819 mi_django views.py (line 13) home_view This is a warning message
+ERROR 2024-08-26 02:13:25,819 mi_django views.py (line 14) home_view This is a error message
+CRITICAL 2024-08-26 02:13:25,820 mi_django views.py (line 15) home_view This is a critical message
+WARNING 2024-08-26 02:17:10,718 mi_django views.py (line 13) home_view This is a warning message
+ERROR 2024-08-26 02:17:10,719 mi_django views.py (line 14) home_view This is a error message
+CRITICAL 2024-08-26 02:17:10,720 mi_django views.py (line 15) home_view This is a critical message
